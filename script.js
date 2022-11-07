@@ -4,7 +4,7 @@ $(btn).click(function (e) {
     let speech = new SpeechSynthesisUtterance();
     speech.lang = 'en-US';
     speech.text = txt;
-    speech.rate = 1;
+    speech.rate = 0.8;
     speech.volume = 1;
     speechSynthesis.speak(speech);
 });
